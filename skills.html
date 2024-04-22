@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: rgb(26, 2, 49);
+            font-family: 'Quicksand', sans-serif;
+            color: aliceblue;
+            
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: rgb(45, 7, 79);
+        }
+        .navi
+        {
+            display: flex;
+        }
+        .navi>li
+        {
+            list-style: none;
+            margin: 0 23px;
+        }
+        .left
+        {
+            font-size: 2rem;
+            color: rgb(186, 186, 12);
+        }
+        
+        
+        .navi>li>a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+        .navi>li>a:hover
+        {
+            color: blueviolet;
+            font-size: 1.08rem;
+        }
+        h1{
+            color: rgb(215, 39, 192);
+        }
+        .skillset>li
+        {
+           color: rgb(108, 157, 232);
+           font-size: 4 rem;
+        }
+       
+        .skillset
+        {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(2,1fr);
+        }
+        img{
+            height: 100px;
+            width: 100px;
+        }
+        header
+        {
+            margin: 0;
+            padding: 0;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <header>
+    <nav>
+        <div class="left"> Portfolio</div>
+    <div class="right">
+        <ul class="navi">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    </nav>
+</header>
+       <main>
+        <h1>Technical Skills:</h1>
+        <div class="skillset">
+            <div> <img src="./Assets/free-c-language-logo-6563484-5453029.png" alt=""></div>
+            <div><img src="./Assets/3d-python-programming-language-logo-free-png.webp" alt=""></div>
+            <div><img src="./Assets/stylized-3d-html-logo-design-free-png.webp" alt=""></div>
+            <div><img src="./Assets/3d-css-icon-design-free-png.png" alt=""></div>
+            <div><img src="./Assets/6622088.webp" alt=""></div>
+            <div><img src="./Assets/free-arduino-1-226076.png" alt=""></div>
+            <div><img src="./Assets/5453031.webp" alt=""></div>
+            <div><img src="./Assets/3d-javascript-logo-design-free-png.webp" alt=""></div>
+        </div>
+       </main>
+
+</body>
+</html>
